@@ -43,6 +43,14 @@
     color:white;
 }
 
+.high-text{
+    color: rgb(13, 19, 33);
+    font-size: 48px;
+    font-weight: 800;
+    text-align: center;
+    margin: 22px;
+}
+
 .title{
     color: rgba(13, 19, 33, 0.7);
     font-size: 24px;
@@ -122,13 +130,6 @@
     margin: 12px;
 }
 
-.banner-header-content > h1{
-    color: rgb(13, 19, 33);
-    font-size: 48px;
-    font-weight: 800;
-    text-align: center;
-    margin: 22px;
-}
 
 .banner-header-content > P{
     margin: 24px auto;
@@ -199,7 +200,7 @@
 }
 /* reason of web text area style end here */
 
-/* web reason of i will do style start here */
+/* web reason of i will do style start here and   this is a common section style  */
 .web-reason-of-i-will-do{
     display: flex;
     justify-content: space-between;
@@ -226,7 +227,12 @@
     width: 100%;
 }
 
-/* web reason of i will do style end here */
+.change{
+    margin-top: 40px;
+}
+
+
+/* web reason of i will do style end here  and this is a common section*/
 
 
 /*  creating mordern web area style start here */
@@ -257,10 +263,41 @@
 /* reason of web area style end here */
 
 
-.change{
-    margin-top: 40px;
+
+
+/* insparation section area start here  */
+.my-inspiration{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 730px;
 }
 
+
+.iframe-video{
+    margin-top: 40px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    padding: 16px 18px;
+    border-radius: 16px;
+}
+
+.iframe-video iframe{
+   
+    border-radius: 16px;
+}
+
+
+.inspiration-text{
+    width: 900px;
+    margin: 0 auto;
+
+}
+
+
+
+/* insparation section area end here  */
 
 
 

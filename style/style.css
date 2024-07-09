@@ -27,11 +27,12 @@
     color: rgb(13, 19, 33);
     font-size: 20px;
     font-weight: 600;
-    line-height: 23px;
+    line-height: 20px;
     border: 1px solid rgb(13, 19, 33);
-    opacity: 0.7;
+    opacity: 0.8;
     padding: 10px 18px;
     margin-top: 20px;
+    font-family: Azeret Mono;
     box-sizing: border-box;
     text-decoration: none;
     transition: 0.8s;
@@ -41,6 +42,16 @@
     background-color: rgb(255, 0, 0);
     color:white;
 }
+
+.title{
+    color: rgba(13, 19, 33, 0.7);
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    margin-top: 10px;
+}
+
+
 
 /* shared style end here */
 
@@ -147,6 +158,9 @@
 
 /* header area style end here */
 
+
+
+
 /* main area style start here */
 
 .main-area{
@@ -191,7 +205,7 @@
     align-items: center;
     padding: 0 30px;
     border-radius: 16px;
-    background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+    background: linear-gradient(90.00deg, rgb(124, 187, 52),rgba(255, 255, 255, 0) 100%);
 }
 
 .i-will-do-text {
@@ -199,13 +213,7 @@
     width: 430px;
     
 }
-.i-will-do-text > h3{
-    color: rgba(13, 19, 33, 0.7);
-    font-size: 24px;
-    font-weight: 700;
-    line-height: 36px;
-    margin-top: 10px;
-}
+
 .i-will-do-text > p{
     margin-top: 20px;
     margin-bottom: 50px;
@@ -218,16 +226,38 @@
     width: 100%;
 }
 
-
-
-
-
-
-
 /* web reason of i will do style end here */
 
 
+/*  creating mordern web area style start here */
+.creating-mordern-web{
+    margin-top: 30px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 48px;
+    border-radius: 16px;
+    background: linear-gradient(270.00deg, rgb(143, 21, 21),rgba(224, 9, 9, 0) 100%);
+    gap: 50px;
+}
+
+.mordern-text-area{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-bottom: 40px;
+}
+
+.mordern-text-area > p{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
 /* reason of web area style end here */
+
+
+
 
 
 

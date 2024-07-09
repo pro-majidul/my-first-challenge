@@ -1,0 +1,129 @@
+/* font-family added */
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body{
+    font-family: "Azeret Mono", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+/* shared style start here */
+
+.text-color{
+    color: rgb(13, 19, 33);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    opacity: 0.7;
+}
+
+/* shared style end here */
+
+/* header area style start here */
+#header-content{
+    width: 1280px;
+    height: 800px ;
+
+
+}
+
+/* nav area style */
+
+.nav-logo{
+    width: 90%;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-logo > h1{
+    color: rgb(13, 19, 33);
+    font-size: 24px;
+    font-weight: 700;
+}
+
+
+/* nav logo button style */
+.btn{
+    border: 1px solid rgb(13, 19, 33);
+    border-radius: 8px;
+    opacity: 0.8;
+    color: rgb(13, 19, 33);
+    font-size: 14px;
+    font-weight: 600;
+    width: 167px;
+    height: 46px;
+}
+/* header logo button close */
+
+
+
+/* nav area style close here */
+
+
+/* banner header area style start here */
+
+.banner-header{
+    margin-top: 3%;
+    height:78%;
+    width: 100%;
+    background-image: url("../assets/Hero-bg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.banner-header-content{
+    width: 998px;
+    height: 582px;  
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.banner-header-content > img{
+    margin: 12px;
+}
+
+.banner-header-content > h1{
+    color: rgb(13, 19, 33);
+    font-size: 48px;
+    font-weight: 800;
+    text-align: center;
+    margin: 22px;
+}
+
+.banner-header-content > P{
+    margin: 20px auto;
+    width: 880px;
+}
+
+.banner-header-content > a {
+    color: rgb(255, 255, 255);
+    border-radius: 8px;
+    width: 153px;
+    height: 48px;
+    margin: 30px 0;
+    background: rgb(13, 19, 33);
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 43px;
+    text-align: center;
+    text-decoration: none;
+    transition: 0.7s;
+}
+.banner-header-content > a:hover{
+    background-color: blueviolet;
+}
+
+/* banner header area style start here */
+
+
+/* header area style end here */

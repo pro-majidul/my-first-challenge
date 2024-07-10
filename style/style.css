@@ -45,7 +45,7 @@
 
 .high-text{
     color: rgb(13, 19, 33);
-    font-size: 48px;
+    font-size: 40px;
     font-weight: 800;
     text-align: center;
     margin: 22px;
@@ -66,7 +66,7 @@
 /* header area style start here */
 #header-content{
     max-width: 1280px;
-    height: 800px ;
+    height: 623px ;
     margin: 0 auto;
 
 
@@ -110,7 +110,7 @@
 /* banner header area style start here */
 
 .banner-header{
-    height:78%;
+    height:80%;
     width: 100%;
     background-image: url("../assets/Hero-bg.png");
     background-repeat: no-repeat;
@@ -272,6 +272,7 @@
     justify-content: flex-start;
     align-items: center;
     height: 730px;
+   
 }
 
 
@@ -299,12 +300,60 @@
 
 /* insparation section area end here  */
 
+/* my current target section style start here */
+.my-current-target{
+    width: 1050px;
+    height: 800px;
+}   
 
+.target-text{
+    width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 40px 0;
+}
 
+.targets-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+.current-item{
+    width: 32%;
+    padding: 30px;
+    border-radius: 16px;
+}
 
+.current-item > h3{
+    color:rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 800;
+    margin: 12px 0;
+}
 
+.current-item > p{
+    margin-bottom: 12px;
+}
+.current-item > a {
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    text-decoration-line: underline;
+}
+.item-color-1{
+    background-color: rgba(255, 76, 30, 0.05);
 
+}
+.item-color-2{
+    background-color:rgba(0, 76, 232, 0.05) ;
+}
+.item-color-3{
+    background-color: rgba(255, 223, 0, 0.05)  ;
+}
 
+/* my current target section style end here */
 
 
 /* main area style end here */

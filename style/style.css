@@ -21,8 +21,22 @@
     font-weight:400;
     line-height: 26px;
     opacity: 0.7;
+    margin-bottom: 12px;
 }
 
+.items{
+    color:rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 800;
+    margin: 12px 0;
+}
+.items-link {
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    text-decoration-line: underline;
+}
 .common-btn{
     color: rgb(13, 19, 33);
     font-size: 18px;
@@ -302,7 +316,7 @@
 /* my current target section style start here */
 .my-current-target{
     width: 1050px;
-    height: 800px;
+    height: 600px;
 }   
 
 .target-text{
@@ -324,23 +338,12 @@
     border-radius: 16px;
 }
 
-.current-item > h3{
-    color:rgb(13, 19, 33);
-    font-size: 20px;
-    font-weight: 800;
-    margin: 12px 0;
-}
+
 
 .current-item > p{
     margin-bottom: 12px;
 }
-.current-item > a {
-    color: rgb(13, 19, 33);
-    font-size: 16px;
-    font-weight: 700;
-    line-height: 19px;
-    text-decoration-line: underline;
-}
+
 .item-color-1{
     background-color: rgba(255, 76, 30, 0.05);
 
@@ -353,6 +356,36 @@
 }
 
 /* my current target section style end here */
+
+
+/* next target item section start here */
+.my-next-target{
+    height: 800px;
+}
+.next-target-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 16px;
+    padding: 12px;
+    margin-bottom: 20px;
+    background: rgb(255, 255, 255);
+}
+
+
+.next-target-content{
+    width: 941.22px;
+    height: 110px;
+   
+}
+
+/* next target item section end here */
+
+
+
 
 
 /* main area style end here */
